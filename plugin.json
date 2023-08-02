@@ -1,0 +1,24 @@
+{
+  "name": "kmind-plugin",
+  "author": "suka233",
+  "url": "https://github.com/suka233/siyuan-kmind-plugin",
+  "version": "1.0.0",
+  "minAppVersion": "2.8.10",
+  "backends": ["all"],
+  "frontends": ["all"],
+  "displayName": {
+    "zh_CN": "Kmind思维导图插件",
+    "en_US": "Kmind plugin"
+  },
+  "description": {
+    "zh_CN": "Kmind思维导图插件",
+    "en_US": "Kmind mind map plugin"
+  },
+  "readme": {
+    "zh_CN": "README.md"
+  },
+  "i18n": ["zh_CN"],
+  "funding": {
+    "custom": ["https://wj.qq.com/s2/12591272/adf1/"]
+  }
+}
