@@ -34,6 +34,22 @@
 
 3.快捷键的说明详见插件菜单，由于为了避免kmind快捷键和思源的快捷键冲突，所以kmind的快捷键是绑定在单张kmind内部的，所以当快捷键失效的时候，只需要先点击kmind的画布空白处，快捷键即可恢复（挂件遇到此问题同理）
 ![shortcut.png](img%2Fshortcut.png)
-## 最后
+## 反馈
+
 如果你需要反馈，可以去我的github仓库提交[issue](https://github.com/suka233/siyuan-kmind-plugin/issues),如果你没有github账号，可以[点我反馈](https://wj.qq.com/s2/12591272/adf1/)。如果你要捐赠我，可以[点我](https://wj.qq.com/s2/12591272/adf1/)，
 或者去我的github仓库给[本插件](https://github.com/suka233/siyuan-kmind-plugin/issues)点一颗star吧~
+
+## 付费
+
+kmind插件的基础编辑功能永久免费使用，不限制导图数量，也不限制节点数量。之后与思源或者外部结合的高级功能可能需要付费（目前此插件收益负50元，因为我向上游库的导图库作者捐赠了50元😋 ），等到正式付费，各位的捐赠金额可以双倍抵扣kmind费用
+
+## 致谢
+
+感谢[@wanglin2/mind-map](https://github.com/wanglin2/mind-map)大佬开发的导图库，没有他就没有本项目
+感谢思源目录插件作者：[@TinkMingKing](https://github.com/TinkMingKing/siyuan-index-plugins) 大佬的提议与帮助
+感谢顶栏日历插件作者：[@svchord](https://github.com/svchord/siyuan-arco-calendar) 大佬的vue模板参考
+感谢开放API插件作者：[@Zuoqiu-Yingyi](https://github.com/Zuoqiu-Yingyi) 萌佬的插件参考与答疑，kmind挂件的悬浮预览脱胎于此
+感谢插件系统的开拓者：[@zuoez02](https://github.com/zuoez02/siyuan-plugin-excalidraw) Z佬的Excalidraw插件参考，抄了一点点新建自定义tab页的写法，嘿嘿
+
+## 最后
+1.导出为PDF的功能，由于打包问题暂时未解决，所以当前仅在Kmind挂件中提供，如果需要导出为PDF的功能，请去Kmind挂件使用
