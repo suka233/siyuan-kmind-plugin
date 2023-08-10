@@ -1,11 +1,15 @@
 # 思源笔记-kmind 插件
     xmind你不要打电话来了，我怕kmind误会
 ## 重要通知 
-由于多tab页的数据复杂性，目前插件版Kmind会有拖拽节点时节点丢失的bug
-（kmind挂件为单一数据源，所以无此问题），请将现存的文件导出为json格式，即可在kmind挂件中或者
-<a href="https://wanglin2.github.io/mind-map/#/">此在线网站</a> 中导入使用，也可以导出为xmind文件使用。
-也可以直接使用挂件版kmind直接选择导入kmind插件文件夹下的的kmind文件。
-如果您不需要kmind挂件的悬浮预览功能，也可以卸载此插件！
+由于多tab页的数据复杂性，1.1.1之前的插件版kmind存在拖拽丢失节点的bug，当前已经修复，技术方案更换为复用挂件版kmind的本地代码，
+所以，如果您需要使用插件版kmind，请务必升级到1.1.1及以上版本，并且将挂件版也同样升级至1.1.1及以上版本，否则插件版kmind无法正常工作。
+复用挂件版的代码优势是，我只需要维护一套代码了，有更多精力和时间玩英雄联盟了 ;-P
+
+**请务必使用1.1.1版本以上的kmind插件！！**
+
+**请务必使用1.1.1版本以上的kmind插件！！**
+
+**请务必使用1.1.1版本以上的kmind插件！！**
 
 ## 缘起
 思源笔记是一款我很喜欢的笔记软件，但是它的导图功能却不是很完善，而我恰好是思维导图重度使用者 
@@ -53,10 +57,16 @@ kmind插件的基础编辑功能永久免费使用，不限制导图数量，也
 ## 致谢
 
 感谢[@wanglin2/mind-map](https://github.com/wanglin2/mind-map)大佬开发的导图库，没有他就没有本项目
+
 感谢思源目录插件作者：[@TinkMingKing](https://github.com/TinkMingKing/siyuan-index-plugins) 大佬的提议与帮助
+
 感谢顶栏日历插件作者：[@svchord](https://github.com/svchord/siyuan-arco-calendar) 大佬的vue模板参考
+
 感谢开放API插件作者：[@Zuoqiu-Yingyi](https://github.com/Zuoqiu-Yingyi) 萌佬的插件参考与答疑，kmind挂件的悬浮预览脱胎于此
+
 感谢插件系统的开拓者：[@zuoez02](https://github.com/zuoez02/siyuan-plugin-excalidraw) Z佬的Excalidraw插件参考，抄了一点点新建自定义tab页的写法，嘿嘿
 
 ## 最后
-1.导出为PDF的功能，由于打包问题暂时未解决，所以当前仅在Kmind挂件中提供，如果需要导出为PDF的功能，请去Kmind挂件使用
+~~1.导出为PDF的功能，由于打包问题暂时未解决，所以当前仅在Kmind挂件中提供，如果需要导出为PDF的功能，请去Kmind挂件使用~~
+
+由于复用了挂件代码，所以导出为PDF的功能已经天然可用（v1.1.1+）
