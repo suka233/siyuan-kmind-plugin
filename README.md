@@ -66,7 +66,9 @@ kmind插件的基础编辑功能永久免费使用，不限制导图数量，也
 
 感谢开放API插件作者：[@Zuoqiu-Yingyi](https://github.com/Zuoqiu-Yingyi) 萌佬的插件参考与答疑，kmind挂件的悬浮预览脱胎于此
 
-感谢插件系统的开拓者：[@zuoez02](https://github.com/zuoez02/siyuan-plugin-excalidraw) Z佬的Excalidraw插件参考，抄了一点点新建自定义tab页的写法，嘿嘿
+感谢插件系统的开拓者：[@zuoez02](https://github.com/zuoez02/siyuan-plugin-excalidraw) Z佬的[Excalidraw插件](https://github.com/zuoez02/siyuan-plugin-excalidraw)
+
+和[@frostime](https://github.com/frostime)大佬的[文档流插件](https://github.com/frostime/sy-docs-flow)参考，抄了亿点点新建自定义tab页的写法，嘿嘿
 
 ## 最后
 ~~1.导出为PDF的功能，由于打包问题暂时未解决，所以当前仅在Kmind挂件中提供，如果需要导出为PDF的功能，请去Kmind挂件使用~~
@@ -75,12 +77,13 @@ kmind插件的基础编辑功能永久免费使用，不限制导图数量，也
 
 ## 最近更新记录
 
-#### v1.1.3
+#### v1.1.4
 
 修复：
+- 修复思源版本v2.10.9更新插件api导致无法打开tab页的bug，该版本可能无法在低于v2.10.9的思源版本中使用
 
-- 修复左上角的通知即使点击了下次不再提示，下次依然会提示的bug
+新增：
+- 复制kmind超链接的功能：现在，你可以复制一个kmind的超链接，然后在另一个kmind的节点上或者思源中或者其它任何地方粘贴，点击即可跳转到该kmind。
 
 优化：
-
-- 当没有安装kmind挂件的时候，新建tab页优化提示信息
+- 点击左下角dock栏的kmind文件列表，如果该kmind已经打开，则会自动跳转到已经打开的tab页
