@@ -1,3 +1,5 @@
+# KMind v2.9.1 Fixes Spacebar Shortcut Bug
+
 # KMind v2.9.0 Reconstructs the Bottom Layer, Adds Node Hyperlinks and Theme Designer
 
 ## Description: Hello everyone, after several months of refactoring, KMind 2.9.0 is ready to launch~~ We sincerely thank more than a dozen enthusiastic community members for their testing. The purpose of this refactoring is to better integrate with Siyuan, laying the foundation for future advanced features such as direct interaction between Siyuan blocks and mind maps, and MOC functionality.
