@@ -1,3 +1,5 @@
+# KMind v2.9.2 Fixes Document Tree Map Search Bug and Adds Auto-Focus to Search Box
+
 # KMind v2.9.1 Fixes Spacebar Shortcut Bug
 
 # KMind v2.9.0 Reconstructs the Bottom Layer, Adds Node Hyperlinks and Theme Designer
