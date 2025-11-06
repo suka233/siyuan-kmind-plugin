@@ -2,8 +2,8 @@
   "name": "kmind-plugin",
   "author": "suka233",
   "url": "https://github.com/suka233/siyuan-kmind-plugin",
-  "version": "2.9.2",
-  "kmindReleaseMsg": "修复文档树导图的搜索会呼出思源搜索框的Bug,新增搜索框自动聚焦的功能",
+  "version": "2.10.0",
+  "kmindReleaseMsg": "新增MOC模式，节点图片复制，全局导图只读功能",
   "minAppVersion": "2.10.9",
   "backends": ["all"],
   "frontends": ["all"],
@@ -12,7 +12,7 @@
     "en_US": "KMind plugin"
   },
   "description": {
-    "zh_CN": "KMind思维导图插件,思源文档一键转导图，导图镜像块，文档树导图，PDF标注跳转等功能，交流QQ群号：130584086",
+    "zh_CN": "KMind思维导图插件,MOC模式，思源文档一键转导图，导图镜像块，文档树导图，PDF标注跳转等功能，交流QQ群号：130584086",
     "en_US": "KMind mind map plugin, one-click convert SiYuan documents to mind maps, mirror blocks, document tree mind maps, PDF annotation jump, etc."
   },
   "readme": {

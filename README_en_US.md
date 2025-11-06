@@ -1,3 +1,37 @@
+# KMind v2.10.0, New MOC Mode
+
+## Hi~ After a period of design work and incorporating interaction suggestions from enthusiastic community members, another major feature is here: KMind MOC Mode!!
+
+## New Features:
+
+1. KMind MOC Mode: Display the document tree as a mind map with a one-to-one correspondence between nodes and Siyuan documents. Access: Right-click any Siyuan document -> Plugin -> KMind -> Switch to MOC Mode
+
+   ![moc](https://s2.loli.net/2025/11/06/XnYp8M1HPso54tD.webp)
+
+    - How is this different from the previous node-associated Siyuan sub-document feature? In previous non-MOC maps, you could add nodes freely and control whether nodes were associated with Siyuan documents; MOC maps render in real-time with a strong correspondence to the Siyuan document tree, and the map's functionality is more restricted.
+    - Important notes: Since creating nodes requires synchronous creation of Siyuan documents, please avoid creating a large number of nodes in a very short time. Some bulk node creation features will be disabled in MOC mode and may be optimized and enabled later.
+    - Most edge cases have been handled. If issues occur, you can right-click the MOC map to refresh.
+    - By default, there are two ways to open the document corresponding to a node: through the hyperlink icon or through the floating toolbar.
+    - Global configuration allows you to change MOC map settings, such as whether to display hyperlinks, set default theme and layout for MOC maps, set the waiting time for displaying floating windows, etc.
+
+      ![PixPin_2025-11-06_19-24-52](https://s2.loli.net/2025/11/06/xopr7F2wPNuIiOR.png)
+2. Node image direct copy functionality
+
+   ![cp](https://s2.loli.net/2025/11/06/MCgjUXdTYvxNEOK.webp)
+3. Global read-only functionality: Set global read-only status in the global configuration to prevent accidental operations
+
+## Bug Fixes:
+
+1. Fixed a bug where deleting nodes before a summary could cause the summary itself to be deleted due to summary indexing issues
+2. Fixed a bug where relationship lines could still be modified in read-only mode
+3. Fixed a bug where bottom bar avoidance would not restore to its original position in read-only mode
+
+## Notes:
+
+Everyone, please go to the KMind theme sharing website (https://share.kmind.app) to share your themes! The example images in this update use the Matcha Green theme from the theme sharing website~
+
+Theme Designer location: KMind menu in the top-right corner of Siyuan -> Theme Designer. After designing, click Share!
+
 # KMind v2.9.2 Fixes Document Tree Map Search Bug and Adds Auto-Focus to Search Box
 
 # KMind v2.9.1 Fixes Spacebar Shortcut Bug
