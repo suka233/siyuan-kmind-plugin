@@ -1,3 +1,10 @@
+# KMind v2.10.1
+
+## Fixes
+
+- Fixed occasional shortcut key failures caused by MOC mode
+- Fixed i18n warnings and improved performance
+
 # KMind v2.10.0, New MOC Mode
 
 ## Hi~ After a period of design work and incorporating interaction suggestions from enthusiastic community members, another major feature is here: KMind MOC Mode!!
