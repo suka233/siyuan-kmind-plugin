@@ -1,3 +1,10 @@
+# KMind v2.10.2
+
+## Fixes
+
+- Fixed an issue where typing `/` in inline node editing would trigger the expand/collapse shortcut instead of being entered as text
+- Fixed an issue where `Ctrl+A` and other editing shortcuts did not work in the DOM-mode popup editor
+
 # KMind v2.10.1
 
 ## Fixes
