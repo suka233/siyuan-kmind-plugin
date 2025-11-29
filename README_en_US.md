@@ -1,3 +1,14 @@
+# KMind v2.11.0, New Bracket Connection Style and Markdown Import
+
+## New
+
+- Added a new bracket connection line style (available for specific layouts, works best with rainbow lines)  
+  ![brace](https://s2.loli.net/2025/11/29/PGFbA3pzyDvTheR.webp)
+- Theme Designer now supports bracket line style and node margin configuration  
+  ![designer](https://s2.loli.net/2025/11/29/k8smfOpME4wRUK5.webp)
+- The import dialog now supports pasting Markdown text directly and improves Markdown import behavior  
+  ![md-import](https://s2.loli.net/2025/11/29/LyNCXTAvFJoK9Y5.webp)
+
 # KMind v2.10.2
 
 ## Fixes

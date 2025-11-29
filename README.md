@@ -7,6 +7,17 @@
 
 ## 最近一次更新记录
 
+# KMind v2.11.0 新增括号连线风格与 Markdown 文本导入
+
+## 新增
+
+- 新增括号连线风格（仅在特定布局下可用），搭配彩虹线条效果更佳  
+  ![brace](https://s2.loli.net/2025/11/29/PGFbA3pzyDvTheR.webp)
+- 主题编辑器支持括号连线风格与节点外边距配置  
+  ![designer](https://s2.loli.net/2025/11/29/k8smfOpME4wRUK5.webp)
+- 导入弹窗支持直接粘贴 Markdown 文本，整体优化 Markdown 导入效果  
+  ![md-import](https://s2.loli.net/2025/11/29/LyNCXTAvFJoK9Y5.webp)
+
 # KMind v2.10.2
 
 ## 修复
