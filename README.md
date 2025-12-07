@@ -7,15 +7,46 @@
 
 ## 最近一次更新记录
 
+# KMind v2.12.0 节点支持直接渲染思源块，支持((快捷引用思源文档
+
+## 说明：此版本的文档树导图的节点，可以直接渲染思源块，还能在编辑的时候使用思源的 `((` 快捷键快速引用思源文档
+
+## 新增：
+
+1. 文档树导图的节点可以直接渲染思源块啦，具体能渲染多少个，取决于机器配置
+
+    ![protyle](https://s2.loli.net/2025/12/07/fXcaEVU7HybtY9A.webp)
+2. 节点直接编辑的时候，可以输入 `((`​ 或者 `{{` 直接引用思源文档，交互同思源原生基本一致；注意弹出框编辑暂不支持该快捷方式
+
+    ![shortcut](https://s2.loli.net/2025/12/07/zencpbV59mhIvjf.webp)
+3. 思源文档树的右键菜单，支持插入平级的KMind文档树导图啦
+
+    ![menu](https://s2.loli.net/2025/12/07/nbCPcYIQuHDx31i.webp)
+4. 节点新增化学方程式支持，弹出框编辑暂不支持
+
+    ![equation](https://s2.loli.net/2025/12/07/eZJb6T4cDfLVaov.webp)
+5. 思源文档一键转KMind导图，过滤空块，嵌入块显示SQL，映射标签，新增代码块显示支持，优化icon适配，适配思源原生引用，支持公式
+
+    ![to](https://s2.loli.net/2025/12/07/XRtiGezjKFcAqTv.webp)
+
+## 修复：
+
+1. 修复思源文档一键转KMind导图的时候无法加载图片的问题
+2. 修复移动端 MOC 导图切换文档的时候，不能正确销毁导图的问题
+
+## 其它：
+
+KMind的[主题分享网站](https://share.kmind.app/themes)新增了 8 个括号线条风格的主题，快去瞅瞅吧
+
 # KMind v2.11.0 新增括号连线风格与 Markdown 文本导入
 
 ## 新增
 
-- 新增括号连线风格（仅在特定布局下可用），搭配彩虹线条效果更佳  
+- 新增括号连线风格（仅在特定布局下可用），搭配彩虹线条效果更佳
   ![brace](https://s2.loli.net/2025/11/29/PGFbA3pzyDvTheR.webp)
-- 主题编辑器支持括号连线风格与节点外边距配置  
+- 主题编辑器支持括号连线风格与节点外边距配置
   ![designer](https://s2.loli.net/2025/11/29/k8smfOpME4wRUK5.webp)
-- 导入弹窗支持直接粘贴 Markdown 文本，整体优化 Markdown 导入效果  
+- 导入弹窗支持直接粘贴 Markdown 文本，整体优化 Markdown 导入效果
   ![md-import](https://s2.loli.net/2025/11/29/LyNCXTAvFJoK9Y5.webp)
 
 # KMind v2.10.2

@@ -1,12 +1,43 @@
+# KMind v2.12.0 Nodes Support Direct Rendering of SiYuan Blocks and (( Quick Reference
+
+## Description: In this version, document tree map nodes can directly render SiYuan blocks, and you can use SiYuan's `((` shortcut to quickly reference SiYuan documents while editing
+
+## New Features:
+
+1. Document tree map nodes can now directly render SiYuan blocks! The number of blocks that can be rendered depends on your machine's configuration
+
+    ![protyle](https://s2.loli.net/2025/12/07/fXcaEVU7HybtY9A.webp)
+2. When editing a node directly, you can type `((` or `{{` to reference SiYuan documents with an interaction similar to SiYuan's native behavior; Note: popup editing does not support this shortcut yet
+
+    ![shortcut](https://s2.loli.net/2025/12/07/zencpbV59mhIvjf.webp)
+3. SiYuan document tree right-click menu now supports inserting sibling KMind document tree maps
+
+    ![menu](https://s2.loli.net/2025/12/07/nbCPcYIQuHDx31i.webp)
+4. Added chemical equation support for nodes; popup editing does not support this yet
+
+    ![equation](https://s2.loli.net/2025/12/07/eZJb6T4cDfLVaov.webp)
+5. One-click SiYuan document to KMind map conversion improvements: filter empty blocks, display SQL for embed blocks, map tags, add code block display support, optimize icon adaptation, adapt to SiYuan native references, support formulas
+
+    ![to](https://s2.loli.net/2025/12/07/XRtiGezjKFcAqTv.webp)
+
+## Bug Fixes:
+
+1. Fixed an issue where images couldn't be loaded when converting SiYuan documents to KMind maps
+2. Fixed an issue where the map wasn't properly destroyed when switching documents in MOC mode on mobile
+
+## Other:
+
+KMind's [theme sharing website](https://share.kmind.app/themes) now has 8 new bracket line style themes, go check them out!
+
 # KMind v2.11.0, New Bracket Connection Style and Markdown Import
 
 ## New
 
-- Added a new bracket connection line style (available for specific layouts, works best with rainbow lines)  
+- Added a new bracket connection line style (available for specific layouts, works best with rainbow lines)
   ![brace](https://s2.loli.net/2025/11/29/PGFbA3pzyDvTheR.webp)
-- Theme Designer now supports bracket line style and node margin configuration  
+- Theme Designer now supports bracket line style and node margin configuration
   ![designer](https://s2.loli.net/2025/11/29/k8smfOpME4wRUK5.webp)
-- The import dialog now supports pasting Markdown text directly and improves Markdown import behavior  
+- The import dialog now supports pasting Markdown text directly and improves Markdown import behavior
   ![md-import](https://s2.loli.net/2025/11/29/LyNCXTAvFJoK9Y5.webp)
 
 # KMind v2.10.2
