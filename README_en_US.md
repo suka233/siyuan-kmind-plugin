@@ -1,3 +1,45 @@
+# KMind v2.13.0 Supports Multi-Root Mode
+
+## Description: From the first line of multi-root code written on June 15th this year until now, half a year has passed, experiencing the transition from traditional programming to AI Coding. Now I'm happy to announce that KMind officially supports multi-root nodes! Whether it's widget maps, Dock bar maps, or document tree maps, all support multi-root node functionality! Moreover, existing data will automatically migrate to the latest data structure when you actively create a second root node, **without any manual operation!** You can double-click on the blank canvas in existing maps to create additional root nodes!
+
+## Recommended Best Practices:
+
+We strongly recommend using Dock bar maps or document tree maps, and setting auto-enter Zen mode when opening maps in KMind global configuration. This way, irrelevant operation buttons will be automatically hidden when entering the map, giving you a larger editing view, more embedded experience, and more features!
+
+Next, we will demonstrate the multi-root node features using the `Document Tree Map`, which has the most complete feature support:
+
+1. Create a KMind map in SiYuan document tree and set your preferred theme and style
+
+    ![1](https://s2.loli.net/2025/12/08/VUBu7SdCwapTnzN.webp)
+2. Double-click to create additional root nodes
+
+    ![2](https://s2.loli.net/2025/12/08/OU1EY9l4vxLzFBP.webp)
+3. Copy the SiYuan block ID you want to embed, right-click the node to bind and render that SiYuan block (Dock maps don't support this feature yet)
+
+    ![3](https://s2.loli.net/2025/12/08/jr7nI5L6ozKN39O.webp)
+4. Rendered SiYuan blocks can be resized by dragging, and you can choose where to open the block via the quick action bar
+
+    ![4](https://s2.loli.net/2025/12/08/rUtjhbyGgzl1TBQ.webp)
+5. Rendered SiYuan blocks can essentially be treated as mind map nodes, so you can create child nodes, relationship lines, and drag them to any position
+
+    ![5](https://s2.loli.net/2025/12/08/kCZ9DetFxXOHvE8.webp)
+6. After creating multi-root nodes by double-clicking, drag any child node to blank canvas for more than 2 seconds to make it a new root node
+
+    ![6](https://s2.loli.net/2025/12/08/OrWX4FqLENoCiB2.webp)
+7. Use the node TODO feature to create lightweight TODO root nodes, delete when done
+
+    ![7](https://s2.loli.net/2025/12/08/ferPIv3QHiNDtSC.webp)
+8. Use the node sub-document feature to quickly create SiYuan sub-documents, practicing lightweight, self-controlled MOC (Dock maps don't support this feature yet)
+
+    ![8](https://s2.loli.net/2025/12/08/zmsQrk5ix1jGuc4.webp)
+9. Use node hyperlink feature to navigate directly to any node in the map from anywhere
+
+    ![9](https://s2.loli.net/2025/12/08/PrwkXUAmzsfR7C9.webp)
+
+## Note:
+
+This version is the initial release of multi-root mode. Many interactions are still being improved and will be gradually enhanced based on user feedback. The number of embedded SiYuan blocks depends on device performance - it's not recommended to maintain a large number of SiYuan blocks in the same map.
+
 # KMind v2.12.0 Nodes Support Direct Rendering of SiYuan Blocks and (( Quick Reference
 
 ## Description: In this version, document tree map nodes can directly render SiYuan blocks, and you can use SiYuan's `((` shortcut to quickly reference SiYuan documents while editing
