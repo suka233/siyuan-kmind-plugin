@@ -1,3 +1,32 @@
+# KMind v2.13.1 Multiple Roots Support Different Layouts & Themes
+
+## Update Summary
+
+This version further optimizes the multi-root experience, supporting different themes and layouts for each root, and adds a series of interaction improvements.
+
+![image](https://s2.loli.net/2025/12/11/YEoLp75JXbq8xGU.png)
+
+## New Features
+
+1. Support setting different theme & layout for each root individually
+
+    ![21](https://s2.loli.net/2025/12/11/sCHB7fM6RvarqL9.webp)
+2. Optimized the interaction for dragging child nodes to become new root nodes
+
+    ![22](https://s2.loli.net/2025/12/11/sCZrRyokDaiNGxO.webp)
+3. Added root node collapse functionality
+4. Added new delete logic for root nodes: first Del key deletes child nodes, second Del deletes the root node
+5. Added global configuration for SiYuan hyperlink icon click behavior
+
+    ![image](https://s2.loli.net/2025/12/11/jfe2zgu6OUKMXDN.png)
+
+## Fixes & Optimizations
+
+1. Fixed rainbow lines error in multi-root mode
+2. Optimized add root node logic to avoid double refresh, improving performance
+3. Optimized search box style to avoid unexpected shadows
+4. Fixed search box close button being truncated
+
 # KMind v2.13.0 Supports Multi-Root Mode
 
 ## Description: From the first line of multi-root code written on June 15th this year until now, half a year has passed, experiencing the transition from traditional programming to AI Coding. Now I'm happy to announce that KMind officially supports multi-root nodes! Whether it's widget maps, Dock bar maps, or document tree maps, all support multi-root node functionality! Moreover, existing data will automatically migrate to the latest data structure when you actively create a second root node, **without any manual operation!** You can double-click on the blank canvas in existing maps to create additional root nodes!
