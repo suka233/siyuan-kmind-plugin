@@ -1,3 +1,29 @@
+# KMind v2.13.3 Epic Update: Support Dragging SiYuan Blocks Directly into the Map & Global Shortcuts
+
+## Description: This version supports dragging SiYuan documents and blocks directly into the map, and allows configuring global shortcuts that apply to all KMind assets.
+
+## New Features:
+
+1. Support dragging SiYuan documents directly into the map. If dropped on a blank area, a new root node is created with the document name. If dropped on a node, the node's SiYuan hyperlink is updated.
+
+    ![1](https://s2.loli.net/2025/12/20/Va9usikoEC8fZdB.webp)
+2. Support dragging SiYuan blocks directly into the map. Hold Shift to create a child node and render it as a SiYuan block, otherwise a SiYuan block area is created directly in the map.
+
+    ![2](https://s2.loli.net/2025/12/20/sIkdEKFh3gXOGYu.webp)
+3. Added KMind Dock icon visibility configuration. Quick start: Top-right KMind Global Config -> Global Config -> Show Dock Icon
+
+    ![image](https://s2.loli.net/2025/12/20/zaUCuoQp1JVH4FL.png)
+4. Added built-in shortcuts, ready to use out of the box, including Zen mode, hyperlinks, etc. Shortcuts can be freely configured and take effect immediately after saving. Quick start: Top-right KMind Global Config -> Shortcut Keys
+
+    ![image](https://s2.loli.net/2025/12/20/iPMtRyYQKsfSBFh.png)
+
+## Fixes & Optimizations:
+
+1. Fixed blank outline expansion in multi-root mode
+2. Fixed import/export issues with some files in multi-root mode
+3. Optimized console debugger output when switching tabs & opening maps without history versions
+4. Shortcut hints in the map now sync when global shortcuts are modified
+
 # KMind v2.13.1 Multiple Roots Support Different Layouts & Themes
 
 ## Update Summary
