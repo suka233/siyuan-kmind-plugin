@@ -1,3 +1,9 @@
+# KMind v2.13.4 Bugfix Release
+
+## Optimization:
+
+- Optimized the save failure prompt when opening the same mind map
+
 # KMind v2.13.3 Epic Update: Support Dragging SiYuan Blocks Directly into the Map & Global Shortcuts
 
 ## Description: This version supports dragging SiYuan documents and blocks directly into the map, and allows configuring global shortcuts that apply to all KMind assets.
