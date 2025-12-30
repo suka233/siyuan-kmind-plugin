@@ -1,3 +1,27 @@
+# KMind v2.13.5 Pro Trial & Multi-Root Frames
+
+## Notes: Starting from this version, you can start a one-click Pro trial (SiYuan account login required). Added multi-root frames and performance improvements.
+
+## New Features:
+
+1. Added Pro trial: click a Pro feature to apply for a trial. To prevent abuse, you must be logged in to your SiYuan account
+2. Added frame feature: adjust the frame flowing animation with one click to highlight key areas during presentations
+
+    ![PixPin_2025-12-30_15-21-35](https://s2.loli.net/2025/12/30/5ytuKr1ao3XzElI.webp)
+3. Frames support multiple nodes: use frames to manage multiple root nodes or SiYuan block nodes
+
+    ![PixPin_2025-12-30_15-26-07](https://s2.loli.net/2025/12/30/elKRvmf7ugOUJqi.webp)
+4. Added a shortcut to toggle read-only mode
+
+## Fixes & Optimizations:
+
+1. Improved mirror block performance with incremental updates by default
+2. Fixed an issue where resizing the canvas in multi-root mode could shift root node positions
+3. Fixed occasional node content misalignment when the canvas changes
+4. Improved node drag interaction (no flashing/teleporting when dragging)
+5. Fixed an issue where the plugin could affect PDF jumps
+6. Improved dragging of SiYuan block nodes: added a drag handle for smoother dragging
+
 # KMind v2.13.4 Bugfix Release
 
 ## Optimization:
