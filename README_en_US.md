@@ -1,3 +1,15 @@
+# KMind v2.14.0 Maintenance Notice
+
+Thank you for using KMind2.
+
+KMind2 has now entered maintenance mode. I will keep it stable and usable in SiYuan, and if a future SiYuan update breaks KMind2, I will fix it as soon as possible.
+
+New features, new platform support, and long-term development will mainly move to KMind Zen, which is built on a new self-developed core. KMind Zen is a next-generation mind map tool redesigned from scratch for SiYuan, Obsidian, the web, and future desktop workflows.
+
+KMind2 will not stop working immediately, but KMind Zen is where the main investment and future updates will happen. I strongly recommend trying it and gradually moving your workflow to KMind Zen.
+
+[KMind Zen vs KMind2: What is the difference?](https://kmind.app/en/tutorials/kmind-zen-vs-kmind2)
+
 # KMind v2.13.5 Pro Trial & Multi-Root Frames
 
 ## Notes: Starting from this version, you can start a one-click Pro trial (SiYuan account login required). Added multi-root frames and performance improvements.

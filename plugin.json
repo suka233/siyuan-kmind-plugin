@@ -2,8 +2,8 @@
   "name": "kmind-plugin",
   "author": "suka233",
   "url": "https://github.com/suka233/siyuan-kmind-plugin",
-  "version": "2.13.5",
-  "kmindReleaseMsg": "新增 PRO 试用功能 & 多根节点外框",
+  "version": "2.14.0",
+  "kmindReleaseMsg": "KMind2 进入维护阶段，建议逐步迁移到 KMind Zen",
   "minAppVersion": "2.10.9",
   "backends": ["all"],
   "frontends": ["all"],
@@ -12,8 +12,8 @@
     "en_US": "KMind plugin"
   },
   "description": {
-    "zh_CN": "KMind思维导图插件,多根节点，MOC模式，思源文档一键转导图，导图镜像块，文档树导图，PDF标注跳转等功能，交流QQ群号：130584086",
-    "en_US": "KMind mind map plugin, one-click convert SiYuan documents to mind maps, mirror blocks, document tree mind maps, PDF annotation jump, etc."
+    "zh_CN": "本插件已经进入维护阶段，强烈推荐使用更新更强的 KMind Zen，思源集市中可以直接搜索下载！KMind思维导图插件,多根节点，MOC模式，思源文档一键转导图，导图镜像块，文档树导图，PDF标注跳转等功能，交流QQ群号：130584086",
+    "en_US": "This plugin has entered maintenance mode. We strongly recommend using the newer and more powerful KMind Zen. You can search and install it directly from the SiYuan marketplace. KMind mind map plugin, one-click convert SiYuan documents to mind maps, mirror blocks, document tree mind maps, PDF annotation jump, etc."
   },
   "readme": {
     "zh_CN": "README.md",
